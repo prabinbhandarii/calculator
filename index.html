@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator - Use Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@300;400&family=Roboto+Condensed&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <div class="calculator-text">
+        <h1>Calculator - Use Me</h1>
+    </div>
+    <div class="container">
+        <div class="calculator">
+            <form onclick="return false">
+                <div class="first">
+                    <button class="button icon" id="clickMe">
+                        <i class="fa-solid fa-moon" id="clickme"></i>
+                    </button>
+                    <input type="text" placeholder="0" class="display" disabled>
+                </div>
+                <div>
+                    <button class="ac orange">AC</button>
+                    <button class="back orange"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="ope per orange">%</button>
+                    <button class="ope orange">/</button>
+                </div>
+                <div>
+                    <button class="btn button">7</button>
+                    <button class="btn button">8</button>
+                    <button class="btn button">9</button>
+                    <button class="ope orange">*</button>
+                </div>
+                <div>
+                    <button class="btn button">4</button>
+                    <button class="btn button">5</button>
+                    <button class="btn button">6</button>
+                    <button class="ope orange">-</button>
+                </div>
+                <div>
+                    <button class="btn button">3</button>
+                    <button class="btn button">2</button>
+                    <button class="btn button">1</button>
+                    <button class="ope orange">+</button>
+                </div>
+                <div>
+                    <button class="ope button">.</button>
+                    <button class="btn button">0</button>
+                    <button class="orange equal">=</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
